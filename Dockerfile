@@ -1,6 +1,6 @@
 FROM jboss/wildfly:10.1.0.Final
 
-ENV KIE_VERSION 7.3.0.Final
+ENV KIE_VERSION 7.4.1.Final
 ENV KIE_REPOSITORY https://repository.jboss.org/nexus/content/groups/public-jboss
 ENV JAVA_OPTS -Xms256m -Xmx512m -Djava.net.preferIPv4Stack=true
 
